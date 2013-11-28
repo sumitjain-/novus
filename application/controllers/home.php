@@ -8,6 +8,7 @@ class Home extends CI_Controller {
 		$this->load->view('home');
 	}
 }
+?>
 
 /* End of file accounts.php */
 /* Location: ./application/controllers/accounts.php */
