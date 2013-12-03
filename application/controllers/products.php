@@ -14,7 +14,7 @@ class Products extends CI_Controller {
 	   $this->load->view('acharya');
 	 }
 	 
-	 public function acharyaCA()
+	 public function acharyaca()
      {
 
        $this->load->view('acharyaCA');

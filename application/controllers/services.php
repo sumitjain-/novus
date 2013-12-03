@@ -2,11 +2,6 @@
 
 class Services extends CI_Controller {
      
-	 public function index()
-	 {
-	 
-	   $this->load->view('services');
-	 }
 	 
 	 public function m_app_dev()
 	 {
@@ -20,10 +15,10 @@ class Services extends CI_Controller {
 	   $this->load->view('w_design_dev');
 	 }
 	 
-	 public function networking services()
+	 public function networking_services()
 	 {
 	 
-	   $this->load->view('networking services');
+	   $this->load->view('networking_services');
 	 }
 	 
 	 public function bus_IT_sol()
@@ -104,7 +99,7 @@ class Services extends CI_Controller {
 	   $this->load->view('scm');
 	 }
 	 
-	 public function bas()
+	 public function business_analysis()
 	 {
 	 
 	   $this->load->view('bas');
