@@ -8,12 +8,39 @@
 	</title>
 
 	{% include 'styles.html.twig' %}
+
+	<style type="text/css">
+		.banner { position: relative; overflow: auto; }
+    	.banner li { list-style: none; }
+        .banner ul li { float: left; }
+        .banner img { max-height: 500px ; width: 100%}
+	</style>
 </head>
 <body>
 {% include 'header.html.twig' %}
 	<div class="row">
-		
+		<div class="banner">
+		    <ul>
+		        <li><img src="{{ site_url() }}img/1.jpg"></li>
+		        <li><img src="{{ site_url() }}img/2.jpg"></li>
+		        <li><img src="{{ site_url() }}img/3.jpg"></li>
+		    </ul>
+		</div>
 	</div>	
 {% include 'scripts.html.twig' %}
+
+<script type="text/javascript">
+	
+	$(function() {
+    $('.banner').unslider({
+    	speed: 300,               //  The speed to animate each slide (in milliseconds)
+		delay: 2000,              //  The delay between slide animations (in milliseconds)
+		keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+		dots: true,               //  Display dot navigation
+		fluid: false 
+    });
+});
+
+</script>
 </body>
 </html>
