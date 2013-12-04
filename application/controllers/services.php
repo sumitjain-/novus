@@ -23,19 +23,22 @@ class Services extends CI_Controller {
 	 public function w_design_dev()
 	 {
 	 
-	   $this->load->view('w_design_dev');
+	   $this->twiggy->title()->append("Web design and Web app development");
+		$this->twiggy->display('');
 	 }
 	 
 	 public function networking_services()
 	 {
 	 
-	   $this->load->view('networking_services');
+	   	$this->twiggy->title()->append("Networking solutions");
+		$this->twiggy->display('');
 	 }
 	 
 	 public function bus_IT_sol()
 	 {
 	 
-	   $this->load->view('bus_IT_sol');
+	   	$this->twiggy->title()->append("Business IT Solutions");
+		$this->twiggy->display('');
 	 }
 	 
 	 public function retail_IT_sol()
