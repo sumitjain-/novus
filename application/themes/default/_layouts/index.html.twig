@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+	<meta name="keywords" value="Novus, software, indore, web development, mobile app, ERP" >
+	{{ meta }}
 	<title>
 		{{ title }}
 	</title>
-	
 
+	{% include 'styles.html.twig' %}
 </head>
 <body>
-{% block header %}
-{% endblock %}
-{% block content %}
-{% endblock %}
+{% include 'header.html.twig' %}
+	<div class="row">
+		
+	</div>	
+{% include 'scripts.html.twig' %}
 </body>
 </html>

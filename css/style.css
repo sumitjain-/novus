@@ -1,5 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+
 body {
 	padding-bottom: 70px ;
+	font-family: 'Architects Daughter', cursive;
 }
 
 a#logo {
@@ -7,5 +10,11 @@ a#logo {
 }
 
 .navbar-novus {
+	background: rgba(108,223,234,0.3) ;
+	box-shadow: 0px -3px 3px #ADD8C7 ;
+	
+}
+
+section.slider {
 	
 }
