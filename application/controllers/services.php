@@ -43,80 +43,80 @@ class Services extends CI_Controller {
 	 
 	 public function retail_IT_sol()
 	 {
-	 
-	   $this->load->view('retail_IT_sol');
+	    $this->twiggy->title()->append("Retail IT Solutions");
+		$this->twiggy->display('');
 	 }
 	 
 	 public function med_IT_sol()
 	 {
-	 
-	   $this->load->view('med_IT_sol');
+	    $this->twiggy->title()->append("Medical IT Solutions");
+		$this->twiggy->display('');
 	 }
 	 
 	 public function manuf_IT_sol()
 	 {
-	 
-	   $this->load->view('manuf_IT_sol');
+	    $this->twiggy->title()->append("Manufacturing IT Solutions");
+		$this->twiggy->display('');
 	 }
 	 
 	 public function edu_inform_sys()
 	 {
-	 
-	   $this->load->view('edu_inform_sys');
+	    $this->twiggy->title()->append("Education Information Systems");
+		$this->twiggy->display('');
 	 }
 	 
 	 public function online_marketing()
 	 {
-	 
-	   $this->load->view('online_marketing');
+	    $this->twiggy->title()->append("Online Marketing");
+		$this->twiggy->display('');
 	 }
 	 
 	 public function crm()
 	 {
-	 
-	   $this->load->view('crm');
+	    $this->twiggy->title()->append("Customer Relationship Management");
+		$this->twiggy->display('');
 	 }
 	 
 	 public function data_ware()
 	 {
-	 
-	   $this->load->view('data_ware');
+	    $this->twiggy->title()->append("Data Warehousing");
+		$this->twiggy->display('');
 	 }
 	 
 	 public function google_app_setup()
 	 {
-	 
-	   $this->load->view('google_app_setup');
+	    $this->twiggy->title()->append("Google apps For Business Setup");
+		$this->twiggy->display('');
 	 }
 	 
 	 public function msoffice_setup()
 	 {
-	 
-	   $this->load->view('msoffice_setup');
+	    $this->twiggy->title()->append("MS Office 365 Setup & Maintenance");
+		$this->twiggy->display('');
 	 }
 	 
 	 public function erp()
 	 {
-	 
-	   $this->load->view('erp');
+	    $this->twiggy->title()->append("Enterprise Resource Planning");
+		$this->twiggy->display('');
 	 }
 	 
 	 public function product_management()
 	 {
-	 
-	   $this->load->view('product_management');
+	    $this->twiggy->title()->append("Product LifeCycle Management");
+		$this->twiggy->display('');
 	 }
 	 
 	 public function scm()
 	 {
-	 
-	   $this->load->view('scm');
+	    $this->twiggy->title()->append("Supply Chain Management");
+		$this->twiggy->display('');
 	 }
 	 
 	 public function business_analysis()
 	 {
-	 
-	   $this->load->view('bas');
+	    $this->twiggy->title()->append("Business Analysis Services");
+		$this->twiggy->display('');
 	 }
 	   
 }
