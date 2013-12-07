@@ -8,7 +8,7 @@
 	</title>
 
 	{% include 'styles.html.twig' %}
-
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
 	<style type="text/css">
 		.banner { position: relative; overflow: auto; }
     	.banner li { list-style: none; }
@@ -18,7 +18,7 @@
 </head>
 <body>
 {% include 'header.html.twig' %}
-	<div class="row">
+	<section class="slider row">
 		<div class="banner">
 		    <ul>
 		        <li><img src="{{ site_url() }}img/1.jpg"></li>
@@ -26,14 +26,14 @@
 		        <li><img src="{{ site_url() }}img/3.jpg"></li>
 		    </ul>
 		</div>
-	</div>	
+	</section>
 {% include 'scripts.html.twig' %}
 
 <script type="text/javascript">
 	
 	$(function() {
     $('.banner').unslider({
-    	speed: 300,               //  The speed to animate each slide (in milliseconds)
+    	speed: 200,               //  The speed to animate each slide (in milliseconds)
 		delay: 2000,              //  The delay between slide animations (in milliseconds)
 		keys: true,               //  Enable keyboard (left, right) arrow shortcuts
 		dots: true,               //  Display dot navigation
