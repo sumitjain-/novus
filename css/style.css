@@ -4,21 +4,30 @@
 font-family: GraublauWeb;
 src: url("../fonts/GraublauWeb.otf") format("opentype");
 }*/
-@import url(http://fonts.googleapis.com/css?family=Headland+One);
-@import url(http://fonts.googleapis.com/css?family=Fauna+One);
+
+@import url(http://fonts.googleapis.com/css?family=Playball);
 
 body {
 	padding-bottom: 70px ;
-	font-family: 'Fauna One', serif;
+	font-family: 'Belleza', sans-serif;
+	font-size: 16px ;
 }
 
 a#logo {
 	padding: 0 15px ;
 }
 
-.navbar-novus {
-	background: rgba(108,223,234,0.3) ;
-	box-shadow: 0px -3px 3px #ADD8C7 ;
+.navbar-default {
+	box-shadow: 0px -2px 10px #D9E3E6 ;
+	font-family: 'Playball', cursive;
+	font-size: 115% ;
+	background: #65DDD0;
+}
+
+.navbar-default a {
+	color: inherit;
+	font-weight: 500 ;
+	
 	
 }
 
@@ -27,8 +36,6 @@ section.slider {
 }
 
 .dropdown-menu {
-	border-bottom-right-radius: 0;
-	border-bottom-left-radius: 0;
 	border-top-left-radius: 4px ;
 	border-top-right-radius: 4px ;
 	margin-bottom: 0 ;
