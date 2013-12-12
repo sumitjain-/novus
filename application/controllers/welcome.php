@@ -2,30 +2,23 @@
 
 class Welcome extends CI_Controller {
 
+
+	public function __construct(){
+		parent::__construct();
+		$this->load->spark('twiggy/0.8.5');
+		$this->twiggy->theme('welcome');
+		$this->twiggy->title("Novus Software Services");
+		$this->twiggy->register_function('site_url');
+
+	}
 	
 	public function index()
 	{
-		$this->load->view('welcome_message');
+
+		$this->twiggy->display('welcome-basic');
 	}
 
-	public function tw(){
-		$this->load->spark('twiggy/0.8.5');
-		$this->twiggy->title("Novus Software Services");
-		$this->twiggy->display();
-	}
 
-	public function se(){
-		
-		$this->load->spark('twiggy/0.8.5');
-		$this->twiggy->theme('services');
-		echo $this->twiggy->get_theme() ;
-		$this->twiggy->title("Novus Software Services");
-		$this->twiggy->meta('keywords', 'Novus, software, SEO, web, ERP, google partner');
-		$this->twiggy->meta('description', 'Twiggy is an implementation of Twig template engine for CI');
-		$this->twiggy->display();
-
-		
-	}
 }
 
 /* End of file welcome.php */
