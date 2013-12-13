@@ -113,7 +113,7 @@ nav.header_nav ul li a:hover{
 }
 
 .display_img {
-	min-height: 500px ;
+	min-height: 650px ;
 	background: url("../img/5.jpg") fixed ;
 	background-size: 100% ;
 	background-position: 0 0 ;
@@ -121,7 +121,8 @@ nav.header_nav ul li a:hover{
 
 .display_img blockquote {
 	font-weight: 700 ;
-	font-size: 130% ;
+	font-size: 180% ;
 	margin-bottom: 30px ;
-	color: #fff ;
+	color: #efffef ;
+	text-shadow:0px 0px 1px #dfd;
 }
