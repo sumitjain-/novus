@@ -33,29 +33,17 @@ class Services extends CI_Controller {
 		$this->twiggy->display('services/networking_services');
 	 }
 	 
-	 public function bus_IT_sol()
+	 public function indus_IT_sol()
 	 {
 	 
-	   	$this->twiggy->title()->append("Business IT Solutions");
-		$this->twiggy->display('services/bus_IT_sol');
-	 }
-	 
-	 public function retail_IT_sol()
-	 {
-	    $this->twiggy->title()->append("Retail IT Solutions");
-		$this->twiggy->display('services/retail_IT_sol');
+	   	$this->twiggy->title()->append("Industry IT Solutions");
+		$this->twiggy->display('services/indus_IT_sol');
 	 }
 	 
 	 public function med_IT_sol()
 	 {
 	    $this->twiggy->title()->append("Medical IT Solutions");
 		$this->twiggy->display('services/med_IT_sol');
-	 }
-	 
-	 public function manuf_IT_sol()
-	 {
-	    $this->twiggy->title()->append("Manufacturing IT Solutions");
-		$this->twiggy->display('services/manuf_IT_sol');
 	 }
 	 
 	 public function edu_inform_sys()
@@ -100,23 +88,10 @@ class Services extends CI_Controller {
 		$this->twiggy->display('services/erp');
 	 }
 	 
-	 public function product_management()
-	 {
-	    $this->twiggy->title()->append("Product LifeCycle Management");
-		$this->twiggy->display('services/product_management');
-	 }
-	 
 	 public function scm()
 	 {
 	    $this->twiggy->title()->append("Supply Chain Management");
 		$this->twiggy->display('services/scm');
 	 }
-	 
-	 public function bas()
-	 {
-	    $this->twiggy->title()->append("Business Analysis Services");
-		$this->twiggy->display('services/bas');
-	 }
-	   
 }
 ?>

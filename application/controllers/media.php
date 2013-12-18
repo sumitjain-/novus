@@ -1,6 +1,6 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Products extends CI_Controller {
+class Media extends CI_Controller {
 
     public function __construct(){
 	 	parent::__construct();
@@ -16,20 +16,8 @@ class Products extends CI_Controller {
      
 	 public function index()
 	 {
-	    $this->twiggy->title()->append("Products");
+	    $this->twiggy->title()->append("Media");
 		$this->twiggy->display();
 	 }
-	 
-	 public function acharya()
-	 {
-	    $this->twiggy->title()->append("Acharya");
-		$this->twiggy->display();
-	 }
-	 
-	 public function acharyaca()
-     {
-        $this->twiggy->title()->append("AcharyaCA");
-		$this->twiggy->display();
-     }	   
 }
 ?>

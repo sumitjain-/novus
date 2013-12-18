@@ -32,15 +32,9 @@ class Company extends CI_Controller {
 		$this->twiggy->display();
      }
 
-     public function management()
+     public function quality policy()
      {
-        $this->twiggy->title()->append("Management");
-		$this->twiggy->display();
-     }
-
-     public function values()
-     {
-        $this->twiggy->title()->append("Values");
+        $this->twiggy->title()->append("qual_policy");
 		$this->twiggy->display();
      }
 
@@ -48,13 +42,6 @@ class Company extends CI_Controller {
 
      {
         $this->twiggy->title()->append("Contacts");
-		$this->twiggy->display();
-     }
-
-     public function support()
-
-     {
-        $this->twiggy->title()->append("Support");
 		$this->twiggy->display();
      }
 
